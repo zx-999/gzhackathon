@@ -1,12 +1,16 @@
 h1 {
-  font-size: large;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
 p {
   /* margin-top: 20px; */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: medium;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-size: small;
   /* margin-bottom: 100px; */
 }
 
@@ -14,17 +18,15 @@ body {
   border: solid #f0b484;
   border-radius: 10px;
   margin: 0;
-  background: linear-gradient(
-    to right,
-    #ffafbd,
-    #ffdca0
-  );
+  background: linear-gradient(to right, #ffafbd, #ffdca0);
   text-align: center;
   border-radius: 5px;
   padding: 10px;
   width: 300px; /* Set width of the popup */
   height: 100px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
   padding: 20px;
 }
 
@@ -52,7 +54,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f1e6da;
+  background-color: #fadcba;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
