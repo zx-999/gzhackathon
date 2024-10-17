@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Daily Affirmations",
+  "description": "Boost your day with uplifting affirmations delivered right to your screen!",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "alarms",
+    "activeTab",
+    "scripting",
+    "notifications"
+  ],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
